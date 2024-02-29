@@ -1,0 +1,25 @@
+body{
+    background: greenyellow;
+    font: normal 20px Arial;
+}
+
+div#area{
+    background-color: grey;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    text-align: center;
+    padding: 150px;
+}
+
+div span{
+    text-transform: uppercase;
+	margin-bottom: 10%;
+}
+
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+}

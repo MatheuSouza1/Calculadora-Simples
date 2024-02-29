@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="area"> 
+        <span id="text">Simple Calculator</span> <input id="numone" type="text"> <input id="numtwo" type="text">
+        <br>
+        <input checked id="chkSum" name="sign-area" type="radio" value="sum"><b>+</b><input id="chkMinus" name="sign-area" type="radio" value="minus"><b>-</b> <input id="chkMulti" name="sign-area" type="radio" value="multi"> <b>*</b> <input id="chkDivision" name="sign-area" type="radio" value="division"> <b>/</b><br>
+        <br>
+        <button id="btnCalculate" onclick="Calculate()"> CALCULATE</button>
+        <br>
+        <h2 id="txtResult"></h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
